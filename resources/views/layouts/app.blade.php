@@ -18,7 +18,11 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    
+
+     <!-- Theme CSS - Includes Bootstrap -->
+    <link href="{{asset('css/creative.min.css')}}" rel="stylesheet">
+
+   
     @yield('more_styles')
 
 </head>
@@ -78,6 +82,16 @@
         <main class="py-4">
             @yield('content')
         </main>
+
+        <!-- Footer -->
+        <footer class="bg-light py-5">
+            <div class="container">
+            <div class="small text-center text-muted">Copyright &copy; 2019 - Servipay</div>
+            </div>
+        </footer>
+
     </div>
 </body>
+<!-- Custom scripts for this template -->
+<script src="{{asset('js/creative.min.js')}}"></script>
 </html>
