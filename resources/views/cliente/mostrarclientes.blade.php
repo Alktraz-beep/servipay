@@ -2,9 +2,10 @@
 
 @section('content')
 <div class="container py-4">
+    <div class="row mb-3">
+        <h3>Los clientes activos de servipay son</h3>
+    </div>
     <div class="row">
-        <div class=""><h3>Bienvenido Rodrigo</h3></div>
-        <div><h4>Los clientes activos de servipay son</h4></div>
         <table class="table table-striped">
             <thead>
             <tr>
